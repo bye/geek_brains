@@ -1,0 +1,262 @@
+
+	/*============ Сброс стилей =============*/
+    * {
+        margin: 0;
+    }
+    html, .page {
+        height: 100%;
+    }
+
+.page {
+    background: #ffffff;
+    background-image: url(img/backgr.jpg); 
+    font-family:  Helvetica, sans-serif;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+   flex-grow: 1;
+
+}
+
+.page__head-line {
+    background-color: #9CFF78;
+    height:5px;    
+    width:100%;
+}
+
+.page__line {
+    width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #17420D;
+    border-radius: 10px; 
+}
+
+.header {
+    background: #9CFF78;
+    background: linear-gradient(to right, #f6f1d3, #9CFF78, #17420D);
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.header__caption {
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.content {
+    height: 100%;
+    background: #C6FE74;
+}
+
+.catalog, .description {
+    height: 100vh;
+    background: #C6FE74;
+}
+
+.page__footer {
+    border-top: 3px solid #17420D;
+    background: #9CFF78;
+    color: #17420D;
+    height: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.header__index-link {
+    color: #17420D;
+    text-decoration: none;
+}
+
+.header__menu {
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.menu__index {
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #006328;
+    padding: 5px;
+}
+
+.menu__catalog {
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #006328;
+    padding: 10px 0;
+    
+}
+
+.menu__contacts {
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #006328;
+    padding: 5px;
+}
+
+.content__greeting {
+    text-align: center;
+    padding: 20px;
+}
+
+.content__text {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.content__index-img{
+    text-align: center;
+    padding-bottom: 10vh;
+}    
+
+.index-img__knife {
+    border: 1px solid #17420D;
+    border-radius: 10px; 
+}
+
+.catalog__header {
+    text-align: center;
+}
+
+.catalog__list {
+    text-align: center;
+}
+
+.catalog__tool {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.tool {
+    border: 2px solid #17420D;
+}
+
+
+.description__img {
+    float: left;
+    margin: 3vh 2vw;
+} 
+
+.description__wrapper {
+    margin: 0 auto;
+    padding: 3vh 3vw;
+}
+
+.description__table {
+    padding-top: 1vh;
+    border-collapse: collapse;
+}
+
+.table__caption {
+    text-align: left;
+
+}
+
+.description__img-link{
+    border: 2px solid #17420D;
+}
+
+.description__text {
+    text-align: left;
+    line-height: 4vh;
+}
+
+.table__col1, .table__col2 {
+    padding: 0.5vh 0.5vw;
+    border-bottom: 1px solid #17420D;
+}
+
+.table__col1 {
+    border-right: 1px solid #17420D;
+}
+
+.extra__kit, .extra__text {
+    padding-left: 4vw;
+    line-height: 4vh;
+}
+
+.extra__kit-list {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.feedback {
+    width: 40vw;
+    padding: 2vh;
+}
+
+.contacts {
+    padding: 2vh;
+    line-height: 4vh;
+}
+
+.contacts__info {
+   margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    line-height: 4vh; 
+}
+
+.contacts__map {
+    text-align: left;
+    padding: 2vh;
+}
+
+.map__iframe {
+    width: 400px; 
+    height: 250px; 
+}
+
+.feedback__fieldset {
+    line-height: 4vh;
+}
+
+
+.feedback__user-name, .feedback__user-email, 
+.feedback__user-phone, .feedback__theme {
+    width: 100%;
+    height: 30px;
+    background: #C7FA9D;
+    font-size: 16px;
+    font-family: fantasy;
+    border-radius: 5%;
+}
+
+.feedback__message {
+    width: 100%;
+    height: 80px;
+    background: #C7FA9D;
+    font-size: 16px;
+    font-family: fantasy;
+    border-radius: 5%;
+}
+
+.feedback__button {
+    width: 200px;
+    height: 30px;
+    background: #C7FA9D;
+    border-radius: 5%;
+    font-size: 16px;
+    font-family: fantasy;
+    margin-top: 5px;
+}
