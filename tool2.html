@@ -3,122 +3,101 @@
  <head>
   <meta charset="utf-8">
   <title>Магаз дяди Васи</title>
-  <style>
-            * {
-                margin: 0;
-            }
-            html, body {
-                height: 100%;
-            }
-            body {
-                background: #ffffff;
-                color: #222222;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            article, header, footer {
-                box-sizing: border-box;
-				padding: 20px;
-                width: 100%;
-            }
-        
-            article p {
-                margin: 10px 0;
-                font-size: 16px;
-                line-height: 1.8;
-            }
-			body {
-                display: flex;
-                flex-direction: column;
-            }
-            article {
-                flex-grow: 1;
-				margin-bottom: 10px;
-            }
-			a {
-				color: #17420D;
-			}
-			footer {
-				border-top: 3px solid #17420D;
-                background: #9CFF78;
-                color: #17420D;
-			}
-			table {
-				border-collapse: collapse; 
-				border-bottom: 2px solid #17420D;
-				border-top: 2px solid #17420D;				
-			}
-			td {
-				border-bottom: 1px solid #17420D;
-				padding: 5px;
-			}
-			td.col1 {
-			border-right: 1px solid #17420D;
-			}
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
  </head> 
- <body>
-  <header>
-    <h1><a href="index.html">Интернет-магазин настоящих мужчин!</a></h1>
-    <ul>
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="catalog.html">Каталог</a></h1></li>
-      <li><a href="contacts.html">Контакты</a></h1></li>
-    </ul>
-    <br>
-    <hr>
-  </header>
-  <article>
-    <h2>Лучшие предложения</h2>
-		<p><a href="tool2_img.html" target="_blank"><img src="img/5414.500x0_small.jpg" width="250" height="167" alt="Топор"></a>
-		</p>
-		<h3>Описание товара</h3>
-		<p>торцевой дамаск, чёрный граб - мельхиор, резная рукоять</p>
-		<table>
-		   <caption><b>Характеристики товара</b></caption>
-		   <tr>
-				<td class="col1">Угол заточки</td>
-				<td>20 градусов</td>
-		   </tr>
-		    <tr>
-				<td class="col1">Твёрдость клинка</td>
-				<td>60 HRC</td>
-			</tr>
-			<tr>
-				<td class="col1">Длина рукоятки</td>
-				<td>125 мм</td>
-			</tr>
-			<tr>
-				<td class="col1">Вес</td>
-				<td>180 г</td>
-			</tr>
-			<tr>
-				<td class="col1">Материал рукояти</td>
-				<td>Чёрный граб (стабилизированное дерево)</td>
-			</tr>
-			<tr>
-				<td class="col1">Длина клинка</td>
-				<td>145 мм</td>
-			</tr>
-			<tr>
-				<td class="col1">Сталь клинка</td>
-				<td>Торцевой дамаск</td>
-			</tr>
-		</table>
-		<br>
-		<h4>Подробное описание товара</h4>
-		<p> Нож туристический Глухарь это отличный представитель 
-		туристических ножей от компании Кизляр, давно зарекомендовавшей 
-		себя на рынке. <br> Исходя из назначения ножа производитель позаботился 
-		о качестве и в то же самое время о надежности.</p>
-		<p><i>Комплектация:</i>
-		<ul>
-			<li>Нож - 1 шт.</li>
-			<li>Ножны - 1 шт.</li>
-			<li>Паспорт - 1 шт.</li>
-		</ul></p>
-  </article>
-  <footer>
-     &copy; Все права защищены
-  </footer>
- </body> 
+ <body class="page">
+  <div class="wrapper">
+    <div class="page__head-line"></div>
+    <div class="page__line">
+      <div class="header">
+       <div class="title">
+         <div class="header__name">
+            <h1><a class="header__index-link" href="index.html">Магаз дяди Васи</a></h1>
+          </div>
+          <div class="header__caption">
+            Интернет-магазин настоящих мужчин
+          </div>
+          </div>
+        <div class="header__menu menu">
+          <a class="menu__index" href="index.html">Главная</a>
+          <span>/</span>
+          <a class="menu__catalog" href="catalog.html">Каталог</a>
+          <span>/</span>
+          <a class="menu__contacts" href="contacts.html">Контакты</a>        
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="page__line">
+      <div class="content">
+      	<div class="description">
+      		<div class="description__img">
+      		<a href="tool1_img.html" target="_blank"><img class="description__img description__img_axe" src="img/5414.500x0_small.jpg" alt="Топор"></a>
+      		</div>
+      		<div class="description__wrapper">
+      		<div class="description__text">   
+					<h3 class="description__header">Описание товара</h3>
+					<p>торцевой дамаск, чёрный граб - мельхиор, резная рукоять</p>
+			</div>
+			<div class="description__table table">
+					<table class="table__conten">
+					   <caption class="table__caption"><b>Характеристики товара</b></caption>
+					   <tr>
+							<td class="table__col1 table__row1">Угол заточки</td>
+							<td class="table__col2 table__row1">20 градусов</td>
+					   </tr>
+					    <tr>
+							<td class="table__col1 table__row2">Твёрдость клинка</td>
+							<td class="table__col2 table__row2">60 HRC</td>
+						</tr>
+						<tr>
+							<td class="table__col1 table__row3">Длина рукоятки</td>
+							<td class="table__col2 table__row3">125 мм</td>
+						</tr>
+						<tr>
+							<td class="table__col1 table__row4">Вес</td>
+							<td class="table__col2 table__row4">180 г</td>
+						</tr>
+						<tr>
+							<td class="table__col1 table__row5">Материал рукояти</td>
+							<td class="table__col2 table__row5">Чёрный граб (стабилизированное дерево)</td>
+						</tr>
+						<tr>
+							<td class="table__col1 table__row6">Длина клинка</td>
+							<td class="table__col2 table__row6">145 мм</td>
+						</tr>
+						<tr>
+							<td class="table__col1 table__row7">Сталь клинка</td>
+							<td class="table__col2 table__row7">Торцевой дамаск</td>
+						</tr>
+					</table>
+			</div>
+			</div>
+			<div class="description__extra">
+				<div class="extra__text">
+					<h4 class="extra__header">Подробное описание товара</h4>
+					<p> Нож туристический Глухарь это отличный представитель 
+					туристических ножей от компании Кизляр, давно зарекомендовавшей 
+					себя на рынке. <br> Исходя из назначения ножа производитель позаботился 
+					о качестве и в то же самое время о надежности.</p>
+				</div>
+				<div class="extra__kit">
+					<i>Комплектация:</i>
+					<ul class="extra__kit-list">
+						<li class="kit-list__item">Топор - 1 шт.</li>
+						<li class="kit-list__item">Ножны - 1 шт.</li>
+						<li class="kit-list__item">Паспорт - 1 шт.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
+  <div class="page__footer">
+    <div class="copyright">
+      &copy; Все права защищены
+    </div>
+  </div>
+  </body> 
 </html>

@@ -3,77 +3,50 @@
  <head>
   <meta charset="utf-8">
   <title>Магаз дяди Васи</title>
-  <style>
-	/*============ Сброс стилей =============*/
-            * {
-                margin: 0;
-            }
-            html, body {
-                height: 100%;
-            }
-           /*============ Основные стили =============*/
-            body {
-                background: #ffffff;
-                color: #222222;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            article, header, footer {
-                box-sizing: border-box;
-                padding: 20px;
-                width: 100%;
-            }
-            article p {
-                margin: 10px 0;
-                font-size: 16px;
-                line-height: 1.8;
-            }
-			body {
-                display: flex;
-                flex-direction: column;
-            }
-            article {
-                flex-grow: 1;
-            }
-			figcaption {
-				text-align: center;
-			}
-			figure {
-				display: inline-block;
-				width: 30%;
-			}
-			a {
-				color: #17420D;
-			}
-			footer {
-				border-top: 3px solid #17420D;
-                background: #9CFF78;
-                color: #17420D;
-			}
-			
-			
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
  </head> 
- <body>
-  <header>
-    <h1><a href="index.html">Интернет-магазин настоящих мужчин!</a></h1>
-    <ul>
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="catalog.html">Каталог</a></h1></li>
-      <li><a href="contacts.html">Контакты</a></h1></li>
-    </ul>
-    <br>
-    <hr>
-  </header>
-  <article>
-    <h2>Добро пожаловать в Магазин Дяди Васи!</h2>
-    <p>В этом году исполняется 10 лет, как наша компания была создана и вышла на рынок. За это время мы заслужили репутацию надежной, стабильной компании и пользуемся заслуженным уважением среди клиентов и партнеров.
-    <br>
-    На сегодняшний день мы объединяем сеть розничных магазинов и интернет-магазин, работающий с доставкой по всей стране и даже с доставкой за границу. </p>
-
-		
-  </article>
-  <footer>
-    &copy; Все права защищены
-  </footer>
- </body> 
+ <body class="page">
+  <div class="wrapper">
+ 	  <div class="page__head-line"></div>
+     	<div class="page__line">
+   		<div class="header">
+   			<div class="title">
+   				<div class="header__name">
+   					<h1><a class="header__index-link" href="index.html">Магаз дяди Васи</a></h1>
+   				</div>
+   				<div class="header__caption">
+   					Интернет-магазин настоящих мужчин
+   				</div>
+   			</div>
+   			<div class="header__menu menu">
+   				    <a class="menu__index" href="index.html">Главная</a>
+              <span>/</span>
+  			      <a class="menu__catalog" href="catalog.html">Каталог</a>
+              <span>/</span>
+              <a class="menu__contacts" href="contacts.html">Контакты</a>    			
+   			</div>
+   		</div>
+   	</div>
+   	<div class="page__line">
+      <div class="content">
+        <div class="content__greeting">
+          <h2>Добро пожаловать в Магазин Дяди Васи!</h2>
+        </div>
+        <div class="content__text">
+          <p>В этом году исполняется 10 лет, как наша компания была создана и вышла на рынок. За это время мы заслужили репутацию надежной, стабильной компании и пользуемся заслуженным уважением среди клиентов и партнеров.
+          <br>
+          На сегодняшний день мы объединяем сеть розничных магазинов и интернет-магазин, работающий с доставкой по всей стране и даже с доставкой за границу.</p>
+        </div>
+        <div class="content__index-img">
+          <img class="index-img__knife" src="img/knifeL.jpg" width="560" height="315" alt="Нож">
+        </div>
+      </div>
+    </div>
+  </div>
+ 	<div class="page__footer">
+    <div class="copyright">
+      &copy; Все права защищены
+    </div>
+  </div>
+  </body> 
 </html>
