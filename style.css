@@ -44,6 +44,10 @@
     padding-left: 10px;
 }
 
+.header__name {
+    padding-left: 10px;
+}
+
 .header__caption {
     font-size: 15px;
     padding-left: 10px;
@@ -55,6 +59,10 @@
     background: #C6FE74;
 }
 
+.index-page__content {
+    height: 100vh;
+    background: #C6FE74;
+}
 .catalog, .description {
     height: 100vh;
     background: #C6FE74;
@@ -74,6 +82,10 @@
     text-decoration: none;
 }
 
+.header__index-link:hover {
+    color: #A66800;
+}
+
 .header__menu {
     width: 30vw;
     margin: 0 auto;
@@ -89,6 +101,10 @@
     padding: 5px;
 }
 
+.menu__index:hover {
+    color: #A66800;
+}
+
 .menu__catalog {
     display: inline-block;
     width: 29%;
@@ -97,7 +113,10 @@
     font-size: 20px;
     color: #006328;
     padding: 10px 0;
-    
+}
+
+.menu__catalog:hover {
+    color: #A66800;
 }
 
 .menu__contacts {
@@ -108,6 +127,10 @@
     font-size: 20px;
     color: #006328;
     padding: 5px;
+}
+
+.menu__contacts:hover {
+    color: #A66800;
 }
 
 .content__greeting {
@@ -150,6 +173,9 @@
     border: 2px solid #17420D;
 }
 
+.tool:hover {
+    border: 2px solid transparent;
+}
 
 .description__img {
     float: left;
@@ -173,6 +199,10 @@
 
 .description__img-link{
     border: 2px solid #17420D;
+}
+
+.description__img-link:hover {
+    border: 2px solid transparent;
 }
 
 .description__text {
@@ -224,11 +254,13 @@
 
 .map__iframe {
     width: 400px; 
-    height: 250px; 
+    height: 250px;
+    border-radius: 10px; 
 }
 
 .feedback__fieldset {
     line-height: 4vh;
+    border-radius: 10px;
 }
 
 
@@ -239,7 +271,8 @@
     background: #C7FA9D;
     font-size: 16px;
     font-family: fantasy;
-    border-radius: 5%;
+    border-radius: 10px;
+    text-transform: capitalize;
 }
 
 .feedback__message {
@@ -248,15 +281,27 @@
     background: #C7FA9D;
     font-size: 16px;
     font-family: fantasy;
-    border-radius: 5%;
+    border-radius: 10px;
+    text-transform: capitalize;
 }
 
 .feedback__button {
     width: 200px;
     height: 30px;
     background: #C7FA9D;
-    border-radius: 5%;
+    border-radius: 10px;
     font-size: 16px;
     font-family: fantasy;
     margin-top: 5px;
+}
+
+.feedback__user-email:focus {
+    background-color: #fff;
+    color: #BF8930;
+}
+
+p:first-letter {
+    font-size: 20px;
+    color: #BF8930;
+    font-weight: 700;
 }
