@@ -411,3 +411,40 @@ body {
 .recent-work__item:hover {
 	cursor: pointer;
 }
+
+.subscribe-box {
+    height: 323px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.subscribe-box__descriptor {
+	padding-top: 84px;
+}
+
+.subscribe-box__descriptor h5 {
+	font-family: 'OpenSans', sans-serif;
+    text-transform: uppercase;
+    font-size: 27.6px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+
+.subscribe-box__descriptor p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 15px;
+    color: #4d4d4d;
+}
+
+.subscribe-box__button {
+	margin-top: 45px;
+    background-color: transparent;
+    padding: 13px 31px;
+    border-radius: 27px;
+    font-weight: 700;
+    font-family: 'OpenSans', sans-serif;
+    color: #4d4d4d;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid #4d4d4d;
+}
